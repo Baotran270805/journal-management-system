@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+.next/
+
+# AI / generated helper files
+backend/.agents/
+backend/.claude/
+backend/.windsurf/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
